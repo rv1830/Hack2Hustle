@@ -1,74 +1,65 @@
 [
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontImage": "src/components/ProblemStatement/data/images/vecteezy_vertical-creative-education-background-with-school-stuffs_10826166-1.jpg",
+    "frontText": "Education",
     "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
+      "The hackathon is aimed at addressing COVID-19-related challenges in education, with a focus on solutions for digital fluency, tailored learning, and psychological well-being support, all while ensuring practicality, expandability, endurance, and cultural awareness."
     ]
   },
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontImage": "https://inc42.com/wp-content/uploads/2023/01/fintech-feature-4-760x570.png",
+    "frontText": "Fintech",
     "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
+      "HackBlocks's Fintech track prioritizes revolutionizing finance on a worldwide scale by pioneering advancements in financial access, electronic transactions, regulatory adherence, and eco-conscious finance, underscoring the capacity of financial technology to redefine the future of the monetary industry."
     ]
   },
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontImage": "https://mitsloan.mit.edu/sites/default/files/styles/one_up/public/2024-03/impact-investing.png?h=639d77e4&itok=YeuRaUVp",
+    "frontText": "Sustainability",
     "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
+      "The hackathon advocates for economic advancement in tandem with environmental and social resilience by fostering inventive approaches for eco-friendly transportation, renewable energy, and conscientious consumption, with a focus on ingenuity, viability, and influence."
     ]
   },
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontImage": "https://cdn.pixabay.com/photo/2024/02/28/02/11/ai-generated-8601045_1280.jpg",
+    "frontText": "Tourism and Culture",
     "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
+      "HackBlocks's initiative integrates tackling tourism obstacles with preserving India's rich cultural heritage through immersive virtual encounters, language initiatives, and community bonds, striving to enrich experiences while safeguarding the country's multifaceted cultural inheritance."
     ]
   },
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontImage": "https://www.healthcareradius.in/cloud/2021/11/15/Picture1-27.jpg",
+    "frontText": "HealthCare",
     "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
+      "The Healthcare track tackles pressing matters within India's healthcare domain, aiming to discover inventive remedies to improve the accessibility, affordability, and caliber of healthcare provisions. It specifically concentrates on harnessing virtual healthcare and artificial intelligence (AI) technologies to advance the sector."
     ]
   },
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontImage": "https://cdn.pixabay.com/photo/2022/03/06/09/01/light-bulb-7051160_1280.png",
+    "frontText": "Open innovation",
     "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
+      "This track motivates budding engineers to tackle tangible industrial challenges in fields such as automotive technology, consumer electronics, and sports innovation, affording them a platform to demonstrate their expertise and ingenuity."
     ]
   },
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontImage": "https://img.freepik.com/premium-photo/robot-portraits-holding-business-growth-graph-shining-hologram-glowing-blue-background-vertical-style-futuristic-ai-with-digital-management-artificial-intelligence-service-technology-concept_36367-8336.jpg?w=360",
+    "frontText": "Artificial Intelligence",
     "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
+      "The AI track delves into machine intelligence, linguistic comprehension, automated systems, and morally conscious AI implementations, enabling participants to craft state-of-the-art solutions that enhance effectiveness, decision-making processes, and client interactions spanning various sectors."
     ]
   },
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontImage": "https://www.taxscan.in/wp-content/uploads/2023/11/cyber-security.jpg",
+    "frontText": "Cyber Security",
     "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
+      "The Cybersecurity track delves into network protection, data encryption, threat detection, and ethical hacking techniques, empowering participants to engineer innovative solutions that fortify digital defenses, safeguard sensitive information, and mitigate cyber threats across diverse sectors."
     ]
   },
   {
-    "frontImage": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-    "frontText": "Lorem ipsum dolor sit amet consectetur adipisi.",
+    "frontImage": "src/components/ProblemStatement/data/images/Blockchain.jpg",
+    "frontText": "Block Chain",
     "backText": [
-      "Consectetur adipisicing elit. Possimus, praesentium?",
-      "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint."
+      "The Blockchain track delves into distributed ledger technology, smart contracts, decentralized finance, and transparent governance models, empowering participants to develop pioneering solutions that enhance data integrity, streamline transactions, and revolutionize trust mechanisms across various industries."
     ]
   }
 ]

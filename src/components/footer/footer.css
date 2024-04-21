@@ -19,7 +19,7 @@
   display: flex;
   position: relative;
   justify-content: space-around;
-  background-color: rgba(85, 75, 185, 0.95);
+  background-color: #3d3b3b;
   padding-top: 33px;
   padding-bottom: 33px;
 }
@@ -53,7 +53,7 @@
 }
 
 .date {
-  color: #ffae00;
+  color: #ff0000;
   text-transform: uppercase;
   font-weight: 400;
   line-height: 2rem;
@@ -85,7 +85,7 @@
   align-items: center;
   gap: 0.3rem;
   text-decoration: none;
-  color: #ffae00;
+  color: #ff0000;
 }
 
 .location a h4 {
@@ -98,7 +98,7 @@
 }
 
 .location:hover a h4 {
-  color: #ffae00;
+  color: #ff0000;
 }
 
 .socialContent {
@@ -155,6 +155,9 @@
 .socialLogo:hover > .instalogo:hover a {
   background-image: linear-gradient(#405de6,#833Ab4,#FD1D1d,#f77737,#fcaf45);
 }
+.socialLogo:hover > .twitterlogo:hover a {
+  background: #0e82ca;
+}
 
 
 .socialLogo li a i {
@@ -166,7 +169,7 @@
 
 .copyContainer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: rgba(85, 75, 185, 0.95);
+  background-color: #534a4a;
   text-align: center;
 }
 
@@ -182,7 +185,7 @@
 }
 
 .copyContainer p span {
-  color: #efa506;
+  color: #fff;
 }
 
 .mapContent iframe {

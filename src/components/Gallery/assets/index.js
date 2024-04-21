@@ -1,15 +1,15 @@
-import img1 from "./ph-1.jpg";
-import img2 from "./ph-2.jpg";
-import img3 from "./ph-3.jpg";
-import img4 from "./ph-4.jpg";
-import img5 from "./e5.jpg";
-import img6 from "./ph-6.jpg";
-import img7 from "./e4.jpg";
-import img8 from "./ph-5.jpg";
-import img9 from "./e4.jpeg";
-import img10 from "./ph-9.jpg";
-import img11 from "./ph-11.jpg";
-import img12 from "./ph-12.jpeg";
+import img1 from "./e1.jpg";
+import img2 from "./e2.jpg";
+import img3 from "./e9.jpg";
+import img4 from "./e7.jpg";
+import img5 from "./e3.jpg";
+import img6 from "./e4.jpg";
+import img7 from "./e6.jpg";
+import img8 from "./e5.jpg";
+import img9 from "./e12.jpg";
+import img10 from "./e10.jpg";
+import img11 from "./e11.jpg";
+import img12 from "./e8.jpg";
 
 export {
   img1,

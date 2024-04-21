@@ -21,7 +21,7 @@ const Home = () => {
 
   function calculateTimeLeft() {
     const currentTime = new Date();
-    const targetDate = new Date("2023-07-27");
+    const targetDate = new Date("2024-05-10");
     targetDate.setHours(23, 59, 59); // Set the target time to 11:59 pm
 
     const timeDiff = targetDate.getTime() - currentTime.getTime();
@@ -50,15 +50,15 @@ const Home = () => {
 
   return (
     <div className="home-container" id="Home">
-      <div className="title-container">
-        <h2 className="hackathon-title">
-          Hack <span>The</span> Future
-        </h2>
-      </div>
+      {/* <div className="title-container">
+        {/* <h2 className="hackathon-title">
+          Hack <span>Blocks</span>
+        </h2> 
+      </div> */}
       <div className="section">
         <div className="left-section">
           <h3 className="date">
-            <b className="lgx-counter">28</b> <span>July</span>
+            <b className="lgx-counter">11</b> <span>May</span>
           </h3>
           <div className="timer">
             <div className="timer-item">
@@ -83,7 +83,7 @@ const Home = () => {
               type="button"
               className="btn btn-2 hover-slide-right register-btn"
             >
-              <a href="https://hackthefuture.devfolio.co/" target="_blank">
+              <a href="https://hackblocks-2.devfolio.co/" target="_blank">
                 Register Now <FiArrowUpRight />
               </a>
             </button>
@@ -98,26 +98,25 @@ const Home = () => {
           </div>
         </div>
         <div className="right-section">
-          <h1 className="hackerspace">&#x23;HackerSpace</h1>
-          <h1 className="greetings">
-            Welcome to Hackathon&nbsp;
-            <span className="year">
+          {/* <h1 className="hackerspace">&#x23;HackerSpace</h1> */}
+          <h1 className="hackathon-title">
+            Hack<span1>Blocks</span1>&nbsp;
+            {/* <span className="year">
               <span className="span1">2</span>
               <span className="span2">0</span>
               <span className="span3">2</span>
-              <span className="span4">3</span>!
-            </span>
+              <span className="span4">4</span>!
+            </span> */}
           </h1>
           <p className="home-text">
-            "Unlock your potential, solve challenges, <br />
-            and leave your mark at our Hackathon event."
+            "HUSTLE. BUILD. HACK"
           </p>
           <h3 className="college-name">
-            <a href="https://msit.edu.in/" target="_blank">
+            <a href="https://bvcoend.ac.in/" target="_blank">
               <span>
                 <IoLocationSharp />
               </span>
-              Meghnad Saha Institute of Technology
+              To Be Announced..
             </a>
           </h3>
         </div>

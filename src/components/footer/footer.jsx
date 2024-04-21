@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
-import hackathonLogo from "/images/hackathon-logo.png";
+import hackathonLogo from "/images/Hackblocks_Logo-removebg-preview.png";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 
 const footer = () => {
@@ -17,39 +17,39 @@ const footer = () => {
           </a>
         </div>
         <div className="venueContent">
-          <h4 className="date">28-30 July, 2023</h4>
+          <h4 className="date-1">11-12 May, 2024</h4>
           <h3 className="footerTitle">Venue Location </h3>
           <address className="address">
-            Meghanad Saha Institute Of Technology, Kolkata <br />
-            West Bengal, India
+          To Be Announced...<br />
+            {/* New Delhi, India */}
           </address>
-          <div className="location">
+          {/* <div className="location">
             <a
-              href="https://maps.app.goo.gl/KF6F1czsG1gGNumL9"
+              href="https://maps.app.goo.gl/jEcqN55yhkt1bJRU6"
               rel="noopener noreferrer"
               target="_blank"
             >
               <IoLocationSharp />
               <h4>View Map Location</h4>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="socialContent">
           <div className="contentText">
             <h3 className="footerTitle">Social Connection</h3>
             <ul className="socialLogo">
-              <li>
-                <a href="/" target="_blank">
-                  <BsFacebook />
+              <li className="twitterlogo">
+                <a href="https://twitter.com/HackBlocks" target="_blank">
+                  <BsTwitter />
                 </a>
               </li>
               <li>
-                <a href="/" target="_blank">
+                <a href="https://www.linkedin.com/in/hack-blocks-659215301/" target="_blank">
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="instalogo">
-                <a href="/" target="_blank">
+                <a href="https://www.instagram.com/hackblocks/" target="_blank">
                   <BsInstagram />
                 </a>
               </li>
@@ -65,7 +65,7 @@ const footer = () => {
       </div>
       <div className="copyContainer">
         <p>
-          <span>©</span> {currentYear} Hackerspace | Developer <span>MSIT</span>
+          <span>©</span> {currentYear} | Developer <span>Team HackBlocks</span>
         </p>
       </div>
     </footer>

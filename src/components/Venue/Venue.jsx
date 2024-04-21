@@ -23,8 +23,8 @@ const Venue = () => {
           <div className="venue-subheading-left">
             <h4 className="venue-date">28-30 July, 2023</h4>
             <address className="venue-address">
-              Meghnad Saha Institute Of Technology, Kolkata <br />
-              West Bengal, India
+            Bharati Vidyapeeth's College of Engineering, Paschim Vihar <br />
+              New Delhi, India
             </address>
             <div className="venue-location">
               <a

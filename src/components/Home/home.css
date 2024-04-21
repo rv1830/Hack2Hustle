@@ -9,27 +9,43 @@
   gap: 1rem;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/images/footer-bg.jpg) center no-repeat;
+    url("https://global.discourse-cdn.com/brave/original/3X/0/5/05ab24246ec26614fa27106953bbf7fcaa83ebae.gif") center no-repeat;
   /* background: #400280;*/
   background-size: cover;
   overflow: hidden;
-  padding-top: 5%;
+  padding-top: 15%;
   padding-bottom: 5%;
+  background-attachment: fixed;
+  /* border: 2px solid white; */
+  position: relative;
+  top: -95px;
 }
 
-.title-container {
+/* .title-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   margin-top: 20px;
   text-transform: uppercase;
   position: relative;
-  /* top: -10%; */
-}
+  /* top: -10%; 
+} */
 
 .hackathon-title {
-  font-size: 5rem;
+  font-size: 9rem;
   color: #fff;
+  font-weight: bold;
+  animation: fadeIn 1s;
+  margin-top: 0;
+  font-family: "Oswald", sans-serif;
+  /* font-size: 200px; */
+}
+
+
+
+.hackathon-title span1{
+  font-size: 9rem;
+  color: #FF3131;
   font-weight: bold;
   animation: fadeIn 1s;
   margin-top: 0;
@@ -37,10 +53,10 @@
 }
 
 .hackathon-title span {
-  font-size: 4rem;
+  font-size: 8rem;
   font-family: "Londrina Outline", cursive;
-  text-shadow: 0 0 5px #02f2fa, 0 0 10px #02f2fa, 0 0 15px #02f2fa,
-    0 0 20px #02f2fa, 0 0 25px #02f2fa, 0 0 30px #02f2fa;
+  text-shadow: 0 0 5px #fa0202, 0 0 10px #fa0202, 0 0 15px #fa0202,
+    0 0 20px #fa0202, 0 0 25px #fa0202, 0 0 30px #fa0202;
 }
 
 .section {
@@ -49,6 +65,7 @@
   align-items: center;
   gap: 5rem;
   position: relative;
+  background-attachment: fixed;
 }
 
 .left-section {
@@ -73,7 +90,7 @@ h1 {
 }
 
 .hackerspace {
-  color: #ffae00;
+  color: #FF3131;
   font-size: 3rem;
   font-family: Poppins, sans-serif;
   font-weight: normal;
@@ -100,7 +117,18 @@ h3 {
   margin-top: 0;
   font-size: 2.5rem;
   line-height: 5rem;
-  color: #efa506;
+  color: #FF3131;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.date-1 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  line-height: 5rem;
+  color: #fff;
   display: flex;
   flex-direction: column;
   padding-bottom: 0;
@@ -138,7 +166,7 @@ h3 {
 
 .timer-item-label {
   font-size: 17px;
-  color: #efa506;
+  color: #FF3131;
   font-family: Poppins, sans-serif;
 }
 
@@ -159,7 +187,7 @@ h3 {
 }
 
 .span2 {
-  color: #ffae00;
+  color: #FF3131;
 }
 
 .span3 {
@@ -171,8 +199,8 @@ h3 {
 }
 
 .home-text {
-  color: #02f2fa;
-  font-size: 1.2rem;
+  color: #fff;
+  font-size: 1.6rem;
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
@@ -185,7 +213,7 @@ h3 {
 .college-name a {
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 5px;
   animation: fadeIn 1s;
   color: #fff;
@@ -194,11 +222,11 @@ h3 {
 }
 
 .college-name a:hover {
-  color: #ffae00;
+  color: #FF3131;
 }
 
 .college-name a span {
-  color: #ffae00;
+  color: #FF5757;
   padding-right: 0.5rem;
 }
 
@@ -233,18 +261,18 @@ h3 {
 }
 
 .register-btn:hover a {
-  color: #ffae00;
+  color: #FF3131;
 }
 
 .register-btn {
-  background-color: #ffae00 !important;
+  background-color: #FF3131 !important;
   color: #000 !important;
 }
 
 .register-btn:hover {
-  color: #ffae00 !important;
+  color: #FF3131 !important;
   background-color: transparent !important;
-  border-color: #ffae00 !important;
+  border-color: #FF3131 !important;
 }
 
 .register {
@@ -295,10 +323,11 @@ h3 {
 @media (max-width: 480px) {
   .home-container {
     overflow: hidden;
-    padding-top: 20%;
+    padding-top: 40%;
     /* margin-bottom: -75%; */
     padding-bottom: 10%;
     gap: 2rem;
+
   }
 
   .home-container {
@@ -316,7 +345,11 @@ h3 {
   }
 
   .hackathon-title {
-    font-size: 2rem;
+    font-size: 4.5rem;
+  }
+
+  .hackathon-title span1{
+    font-size: 4.5rem;
   }
 
   .date b {
@@ -352,7 +385,7 @@ h3 {
   .home-text {
     font-size: 1rem;
     width: 50%;
-    left: 25%;
+    left: 24%;
     position: relative;
     text-align: center;
   }
@@ -392,11 +425,15 @@ h3 {
   }
 
   .hackathon-title {
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
 
   .hackathon-title span {
     font-size: 2.5rem;
+  }
+  
+  .hackathon-title span1{
+    font-size: 4.5rem;
   }
 
   .left-section {
@@ -424,7 +461,7 @@ h3 {
 
   .home-text {
     width: 50%;
-    left: 29%;
+    left: 24%;
     position: relative;
   }
 
@@ -480,9 +517,13 @@ h3 {
     margin-bottom: -5px;
   }
 
+  .hackathon-title span1{
+    font-size: 4.5rem;
+  }
+
   .home-text {
     width: 50%;
-    left: 20%;
+    left: 24%;
     position: relative;
   }
 

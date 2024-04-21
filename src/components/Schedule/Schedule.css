@@ -21,7 +21,7 @@
 }
 .Schedule_main .Schedule_head {
   font-size: 29px;
-  color: rgba(91, 14, 216, 0.767);
+  color: #FF3131;
   position: relative;
   margin-bottom: 100px;
   font-weight: 500;
@@ -36,8 +36,8 @@
   transform: translateX(-50%);
   background-image: linear-gradient(
     to right,
-    rgba(91, 14, 216, 0.767),
-    rgba(238, 12, 200, 0.747)
+    #FF3131,
+    #FF5757
   );
 }
 
@@ -62,8 +62,9 @@
   transform: translateX(-50%);
   background-image: linear-gradient(
     to bottom,
-    rgba(91, 14, 216, 0.767),
-    rgba(238, 12, 200, 0.747)
+    #FF3131,
+    #FF5757
+
   );
   animation: moveline 6s linear forwards;
 }
@@ -96,7 +97,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #e100ff7a;
+  background-color: #FF5757;
   top: 0;
   display: grid;
   place-items: center;
@@ -105,7 +106,7 @@
   content: " ";
   width: 12px;
   height: 12px;
-  background-color: #7f00ff;
+  background-color: #FF3131;
   border-radius: 50%;
 }
 ul li:nth-child(odd) .circle {
@@ -120,7 +121,7 @@ ul li .Schedule_date {
   position: absolute;
   width: 130px;
   height: 33px;
-  background-image: linear-gradient(to right, #7f00ff, #e100ff);
+  background-image: linear-gradient(to right, #FF3131, #FF5757);
   border-radius: 15px;
   top: -45px;
   display: grid;
@@ -145,7 +146,7 @@ ul li:nth-child(odd) .Schedule_date {
 }
 ul li .Schedule_heading {
   font-size: 17px;
-  color: rgb(91, 14, 216);
+  color: #FF3131;
 }
 ul li p {
   font-size: 13px;
@@ -156,7 +157,7 @@ ul li p {
 ul li a {
   font-size: 13px;
   text-decoration: none;
-  color: rgb(18, 54, 214);
+  color: #FF3131;
   transition: all 0.3s ease;
 }
 

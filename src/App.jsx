@@ -21,18 +21,18 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <Home />
+       <Home />
       <About />
       <Theme />
       <Venue />
       <Scheduled />
       <Prize />
-      {/* <Judges/> */}
+      {/* <Judges/>*/} 
       <Sponser />
-      <Faq />
       <Gallery />
+      <Faq />
       <Footer />
-      <TopButton />
+      <TopButton /> 
     </div>
   );
 };

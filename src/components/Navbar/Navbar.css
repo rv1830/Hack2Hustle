@@ -7,53 +7,66 @@
   max-width: 1200px;
   width: 100%;
   /* margin: auto; */
-  margin-left: 29px;
+  /* margin-left: 29px; */
 }
 
 .navbar {
   position: fixed;
   width: 100%;
-  background: #544bb9;
+  /* background: red; */
   color: #fff;
   opacity: 0.85;
-  z-index: 100;
+  z-index: 9;
+  /* border: 2px solid white; */
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
   height: 64px;
+  margin-right:-12px;
   align-items: center;
-  gap: 1rem;
+  /* gap: 0.5rem; */
+  width: 100%;
+  /* background: red; */
 }
+
 
 .menu-items {
   /* order: 1; */
   width: 600px;
   display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
+  align-items: center;
+  /* flex-wrap: wrap; */
 }
 
 .img {
   /* order: 2; */
   width: 200px;
+  height: 80px;
+  margin-top: -7px;
 }
+/* .logo{
+  background-size: cover;
+  object-fit: cover;
+} */
 
 /* .rightLogo{
     position: absolute;
     right: 3%;
 } */
-.right-img {
+/* .right-img {
   width: 60px;
-}
+} */
 
 .menu-items li {
   list-style: none;
   margin-left: 1.5rem;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   font-size: 1.3rem;
   position: relative;
+  
 }
 
 .navbar a {
@@ -62,11 +75,11 @@
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .navbar a:hover {
-  color: #ffae00;
+  color: #ff0000;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -115,7 +128,7 @@
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #ffae00;
+    background: #ff0000;
   }
 
   .navbar-container .hamburger-lines .line1 {
@@ -259,7 +272,7 @@
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #ffae00;
+    background: #ff0000;
   }
 
   .navbar-container .hamburger-lines .line1 {
@@ -366,10 +379,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #0009;
+  /* background-color: #03041f; */
   backdrop-filter: blur(0);
   transition: backdrop-filter 0.3s ease-in-out;
   z-index: 999;
+  height: 95px;
 }
 
 .navbar.scrolled {
@@ -384,6 +398,7 @@
   right: 5%;
   width: 30px;
   height: 20px;
+  margin-right:-12px;
 }
 
 .bars {

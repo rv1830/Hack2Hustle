@@ -1,4 +1,4 @@
-import sp1 from "./mcdonalds.png";
+import sp1 from "./devfolio.png";
 import sp2 from "./hogwarts.png";
 import sp3 from "./generalElectric.png";
 import sp4 from "./mercedesBenz.png";
