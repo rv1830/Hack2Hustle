@@ -1,5 +1,5 @@
 import React from "react";
-import {aboutImg} from "./assets/—Pngtree—computer hacker_5418075.png";
+//import {aboutImg} from "./assets/—Pngtree—computer hacker_5418075.png";
 import "./about.css";
 
 const AboutSection = () => {
@@ -35,7 +35,7 @@ const AboutSection = () => {
           </p> */}
         </div>
         <div className="about-right-section">
-          <img src={aboutImg} alt="img" className="hackathon-image" />
+          <img src="src/components/About/Assets/—Pngtree—computer hacker_5418075.png" alt="img" className="hackathon-image" />
         </div>
       </div>
     </div>
