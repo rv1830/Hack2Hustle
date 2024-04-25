@@ -35,7 +35,7 @@ const AboutSection = () => {
           </p> */}
         </div>
         <div className="about-right-section">
-          <img src="src/components/About/Assets/—Pngtree—computer hacker_5418075.png" alt="img" className="hackathon-image" />
+          <img src="https://camo.githubusercontent.com/2024b4acc66429c1d1dfbe6bcfbe35897f5d939da3522d35922057296eeaf7e6/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f323133313939332f73637265656e73686f74732f343934383733362f74686f75676874776f726b732d6769665f6472696262626c652e676966" alt="img" className="hackathon-image" />
         </div>
       </div>
     </div>
