@@ -17,11 +17,13 @@ const footer = () => {
           </a>
         </div>
         <div className="venueContent">
-          <h4 className="date-1">11-12 May, 2024</h4>
+          <h4 className="date-1">10-11 May, 2024</h4>
           <h3 className="footerTitle">Venue Location </h3>
           <address className="address">
-          To Be Announced...<br />
-            {/* New Delhi, India */}
+          Microsoft Corporation India Pvt. Ltd.
+          DLF Downtown, Level 8, Block 2 DLF Phase - 3, Sector - 25A,Gurugram 122002
+          
+          
           </address>
           {/* <div className="location">
             <a

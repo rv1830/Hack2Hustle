@@ -21,7 +21,28 @@
     ]
   },
   {
-    "frontImage": "https://cdn.pixabay.com/photo/2024/02/28/02/11/ai-generated-8601045_1280.jpg",
+    "frontImage": "https://img.freepik.com/premium-photo/robot-portraits-holding-business-growth-graph-shining-hologram-glowing-blue-background-vertical-style-futuristic-ai-with-digital-management-artificial-intelligence-service-technology-concept_36367-8336.jpg?w=360",
+    "frontText": "Artificial Intelligence",
+    "backText": [
+      "The AI track delves into machine intelligence, linguistic comprehension, automated systems, and morally conscious AI implementations, enabling participants to craft state-of-the-art solutions that enhance effectiveness, decision-making processes, and client interactions spanning various sectors."
+    ]
+  },
+  {
+    "frontImage": "https://cdn.pixabay.com/photo/2021/10/09/13/52/hacking-6694207_1280.png",
+    "frontText": "Cyber Security",
+    "backText": [
+      "The Cybersecurity track delves into network protection, data encryption, threat detection, and ethical hacking techniques, empowering participants to engineer innovative solutions that fortify digital defenses, safeguard sensitive information, and mitigate cyber threats across diverse sectors."
+    ]
+  },
+  {
+    "frontImage": "src/components/ProblemStatement/data/images/Blockchain.jpg",
+    "frontText": "Block Chain",
+    "backText": [
+      "The Blockchain track delves into distributed ledger technology, smart contracts, decentralized finance, and transparent governance models, empowering participants to develop pioneering solutions that enhance data integrity, streamline transactions, and revolutionize trust mechanisms across various industries."
+    ]
+  },
+  {
+    "frontImage": "https://cdn.pixabay.com/photo/2020/11/10/08/17/man-5728883_1280.png",
     "frontText": "Tourism and Culture",
     "backText": [
       "HackBlocks's initiative integrates tackling tourism obstacles with preserving India's rich cultural heritage through immersive virtual encounters, language initiatives, and community bonds, striving to enrich experiences while safeguarding the country's multifaceted cultural inheritance."
@@ -39,27 +60,6 @@
     "frontText": "Open innovation",
     "backText": [
       "This track motivates budding engineers to tackle tangible industrial challenges in fields such as automotive technology, consumer electronics, and sports innovation, affording them a platform to demonstrate their expertise and ingenuity."
-    ]
-  },
-  {
-    "frontImage": "https://img.freepik.com/premium-photo/robot-portraits-holding-business-growth-graph-shining-hologram-glowing-blue-background-vertical-style-futuristic-ai-with-digital-management-artificial-intelligence-service-technology-concept_36367-8336.jpg?w=360",
-    "frontText": "Artificial Intelligence",
-    "backText": [
-      "The AI track delves into machine intelligence, linguistic comprehension, automated systems, and morally conscious AI implementations, enabling participants to craft state-of-the-art solutions that enhance effectiveness, decision-making processes, and client interactions spanning various sectors."
-    ]
-  },
-  {
-    "frontImage": "https://www.taxscan.in/wp-content/uploads/2023/11/cyber-security.jpg",
-    "frontText": "Cyber Security",
-    "backText": [
-      "The Cybersecurity track delves into network protection, data encryption, threat detection, and ethical hacking techniques, empowering participants to engineer innovative solutions that fortify digital defenses, safeguard sensitive information, and mitigate cyber threats across diverse sectors."
-    ]
-  },
-  {
-    "frontImage": "src/components/ProblemStatement/data/images/Blockchain.jpg",
-    "frontText": "Block Chain",
-    "backText": [
-      "The Blockchain track delves into distributed ledger technology, smart contracts, decentralized finance, and transparent governance models, empowering participants to develop pioneering solutions that enhance data integrity, streamline transactions, and revolutionize trust mechanisms across various industries."
     ]
   }
 ]

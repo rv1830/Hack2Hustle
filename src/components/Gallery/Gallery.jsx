@@ -27,7 +27,7 @@ const Gallery = () => {
         <img src={img4} className="img-responsive" alt="ig 4" />
         <img src={img5} className="img-responsive" alt="ig 5" />
         <img src={img6} className="img-responsive" alt="ig 6" />
-        <img src={img7} className="card img-responsive" alt="ig 7" />
+        <img src={img7} className="img-responsive" alt="ig 7" />
         <img src={img8} className="img-responsive" alt="ig 8" />
         <img src={img9} className="img-responsive" alt="ig 9" />
         <img src={img10} className="img-responsive" alt="ig 10" />

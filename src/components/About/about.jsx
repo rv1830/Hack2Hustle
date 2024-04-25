@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "./assets/reshot-icon-programmer-A734K8CJMZ.svg";
+import aboutImg from "./assets/—Pngtree—computer hacker_5418075.png";
 import "./about.css";
 
 const AboutSection = () => {

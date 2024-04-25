@@ -3,6 +3,7 @@ import "./home.css";
 import { BsDiscord } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
+import hackathonLogo from "/images/Hackblocks_Logo-removebg-preview.png";
 
 const Home = () => {
   // const hackathonDate = new Date('2023-07-28');
@@ -58,7 +59,7 @@ const Home = () => {
       <div className="section">
         <div className="left-section">
           <h3 className="date">
-            <b className="lgx-counter">11</b> <span>May</span>
+            <b className="lgx-counter">10</b> <span>May</span>
           </h3>
           <div className="timer">
             <div className="timer-item">
@@ -91,7 +92,7 @@ const Home = () => {
               type="button"
               className="btn btn-2 hover-slide-right discord"
             >
-              <a href="https://discord.gg/q9vHfn9M" target="_blank">
+              <a href="https://discord.com/invite/hMj3VeZF" target="_blank">
                 Join Here <BsDiscord />
               </a>
             </button>
@@ -112,11 +113,11 @@ const Home = () => {
             "HUSTLE. BUILD. HACK"
           </p>
           <h3 className="college-name">
-            <a href="https://bvcoend.ac.in/" target="_blank">
+            <a href="https://www.google.com/maps/place/Microsoft/@28.4915743,77.0885427,15z/data=!3m1!5s0x390d18df3f558f7d:0xa20f1b5aa02df24d!4m10!1m2!2m1!1smicrosoft+corporation+india+pvt.+ltd.+dlf+downtown,+level+8,+block+2+dlf+phase+-+3,+sector+-+25a+gurugram+122002+kocation!3m6!1s0x390d1937a3b855cb:0x4b8c750d9d64fe72!8m2!3d28.4890758!4d77.0917585!15sCnltaWNyb3NvZnQgY29ycG9yYXRpb24gaW5kaWEgcHZ0LiBsdGQuIGRsZiBkb3dudG93biwgbGV2ZWwgOCwgYmxvY2sgMiBkbGYgcGhhc2UgLSAzLCBzZWN0b3IgLSAyNWEgZ3VydWdyYW0gMTIyMDAyIGtvY2F0aW9uIgOIAQGSARBzb2Z0d2FyZV9jb21wYW554AEA!16s%2Fg%2F1tdxtdj3?entry=ttu" target="_blank">
               <span>
                 <IoLocationSharp />
               </span>
-              To Be Announced..
+              Microsoft,Gurugram
             </a>
           </h3>
         </div>
