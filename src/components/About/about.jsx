@@ -1,4 +1,5 @@
 import React from "react";
+import {aboutImg} from "./assets/—Pngtree—computer hacker_5418075.png";
 import "./about.css";
 
 const AboutSection = () => {
@@ -34,7 +35,7 @@ const AboutSection = () => {
           </p> */}
         </div>
         <div className="about-right-section">
-          <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExejNyZmFlc3dybm16a29sejdibWgyZDYwZHZsdjNsM2o4Ymtvczk4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" alt="img" className="hackathon-image" />
+          <img src={aboutImg} alt="img" className="hackathon-image" />
         </div>
       </div>
     </div>
