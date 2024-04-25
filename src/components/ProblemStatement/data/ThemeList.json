@@ -1,6 +1,6 @@
 [
   {
-    "frontImage": "src/components/ProblemStatement/data/images/vecteezy_vertical-creative-education-background-with-school-stuffs_10826166-1.jpg",
+    "frontImage": "https://cdn.pixabay.com/photo/2017/07/19/16/44/questions-2519654_1280.png",
     "frontText": "Education",
     "backText": [
       "The hackathon is aimed at addressing COVID-19-related challenges in education, with a focus on solutions for digital fluency, tailored learning, and psychological well-being support, all while ensuring practicality, expandability, endurance, and cultural awareness."
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "frontImage": "src/components/ProblemStatement/data/images/Blockchain.jpg",
+    "frontImage": "https://cdn.pixabay.com/photo/2021/12/09/19/01/globe-6858907_1280.jpg",
     "frontText": "Block Chain",
     "backText": [
       "The Blockchain track delves into distributed ledger technology, smart contracts, decentralized finance, and transparent governance models, empowering participants to develop pioneering solutions that enhance data integrity, streamline transactions, and revolutionize trust mechanisms across various industries."
