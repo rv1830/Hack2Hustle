@@ -322,11 +322,14 @@ h3 {
 /* Screen size up to 480px */
 @media (max-width: 480px) {
   .home-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://global.discourse-cdn.com/brave/original/3X/0/5/05ab24246ec26614fa27106953bbf7fcaa83ebae.gif") center no-repeat;
     overflow: hidden;
     padding-top: 40%;
     /* margin-bottom: -75%; */
     padding-bottom: 10%;
     gap: 2rem;
+    background-size: cover;
 
   }
 
@@ -408,11 +411,14 @@ h3 {
 /* Screen size between 481px and 767px */
 @media (min-width: 481px) and (max-width: 767px) {
   .home-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://global.discourse-cdn.com/brave/original/3X/0/5/05ab24246ec26614fa27106953bbf7fcaa83ebae.gif") center no-repeat;
     flex-direction: column;
     padding-top: 20%;
     /* margin-bottom: -50%; */
     padding-bottom: 10%;
     gap: 2rem;
+    background-size: cover;
   }
 
   .section {
