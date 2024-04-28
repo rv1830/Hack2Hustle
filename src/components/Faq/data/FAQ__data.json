@@ -1,18 +1,22 @@
 [
   {
-    "question": "How many members are allowed in the team?",
-    "answer": "4 members"
+    "question": "It is required for all the members of the team to be from the same college",
+    "answer": "Nope! Diversity thrives at HackBlocks.Teammates can hail from different colleges, bringing varied perspectives and skills to the table."
   },
   {
     "question": "Is there a registration fee for this hackathon?",
-    "answer": "No, this hackathon is open to all for free"
+    "answer": "Nope, it's completely free! Join HackBlocks without worrying about any registration fees. Let's focus on coding brilliance together!"
   },
   {
-    "question": "Is it required for all the members of the team to be from the same college?",
-    "answer": "No, participants of a team can be from different colleges"
+    "question": "How many members are allowed in the team?",
+    "answer": "Teams can range from minimum of two members to maximum of four members at HackBlocks!  With a dynamic duo to fantastic  four, there's room for collaborative genius and innovation"
   },
   {
-    "question": "Will the hackathon be online or offline?",
-    "answer": "The hackathon will be in Hybrid mode"
+    "question": "Are hardware projects allowed",
+    "answer": "Sorry, only software projects are permitted as HackBlocks focuses exclusively on unleashing coding creativity and innovation."
+  },
+  {
+    "question":"What is Open Innovation?",
+    "answer":"In an open innovation project you can choose any domain of your choice and build a software based project on the same."
   }
 ]

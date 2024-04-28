@@ -297,6 +297,24 @@ h3 {
   color: #9e52e9;
 }
 
+.whatsapp {
+  background-color: #14ad2b !important;
+}
+
+.whatsapp a {
+  color: #000;
+  text-decoration: none;
+}
+
+.whatsapp:hover {
+  border: 2px solid #14ad2b !important;
+  background-color: transparent !important;
+}
+
+.whatsapp:hover > a {
+  color: #14ad2b;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

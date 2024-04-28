@@ -3,6 +3,7 @@ import "./home.css";
 import { BsDiscord } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
+import { BsWhatsapp } from "react-icons/bs";
 import hackathonLogo from "/images/Hackblocks_Logo-removebg-preview.png";
 
 const Home = () => {
@@ -96,6 +97,14 @@ const Home = () => {
                 Join Here <BsDiscord />
               </a>
             </button>
+            {/* <button
+              type="button"
+              className="btn btn-2 hover-slide-right whatsapp"
+            >
+              <a href="https://discord.com/invite/hMj3VeZF" target="_blank">
+                Join Here <BsWhatsapp />
+              </a>
+            </button> */}
           </div>
         </div>
         <div className="right-section">
