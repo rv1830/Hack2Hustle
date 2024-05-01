@@ -105,7 +105,7 @@ const Home = () => {
               className="btn btn-2 hover-slide-right whatsapp"
             >
               
-              <a href="https://discord.com/invite/hMj3VeZF" target="_blank">
+              <a href="https://chat.whatsapp.com/IQNGOIau2ZC5G5FHC0KGTv" target="_blank">
                 Join Here <BsWhatsapp />
               </a>
             </button>
