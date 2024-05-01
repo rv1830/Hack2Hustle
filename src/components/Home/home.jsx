@@ -97,15 +97,19 @@ const Home = () => {
                 Join Here <BsDiscord />
               </a>
             </button>
-            {/* <button
+            
+          </div>
+          <div className="wt">
+          <button
               type="button"
               className="btn btn-2 hover-slide-right whatsapp"
             >
+              
               <a href="https://discord.com/invite/hMj3VeZF" target="_blank">
                 Join Here <BsWhatsapp />
               </a>
-            </button> */}
-          </div>
+            </button>
+            </div>
         </div>
         <div className="right-section">
           {/* <h1 className="hackerspace">&#x23;HackerSpace</h1> */}

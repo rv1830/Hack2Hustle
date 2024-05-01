@@ -298,7 +298,13 @@ h3 {
 }
 
 .whatsapp {
+  width: auto;
+  display: flex;
+  
   background-color: #14ad2b !important;
+}
+.whatsapp div{
+  padding: 0px 15px;
 }
 
 .whatsapp a {
