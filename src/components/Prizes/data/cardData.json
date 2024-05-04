@@ -1,14 +1,16 @@
 [
   {
-    "heading": "2nd Prize"
+    "heading": "2nd Prize",
+    "content": "₹12,000"
+  },
+  {
+    "heading": "1st Prize",
+    "content":"₹20,000"
     
   },
   {
-    "heading": "1st Prize"
-    
-  },
-  {
-    "heading": "3rd Prize"
+    "heading": "3rd Prize",
+    "content":"₹8000"
    
   }
 ]
