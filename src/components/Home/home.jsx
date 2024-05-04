@@ -93,7 +93,7 @@ const Home = () => {
               type="button"
               className="btn btn-2 hover-slide-right discord"
             >
-              <a href="https://discord.com/invite/hMj3VeZF" target="_blank">
+              <a href="https://discord.gg/2U2cHjS53U" target="_blank">
                 Join Here <BsDiscord />
               </a>
             </button>
