@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
-import { BsDiscord } from "react-icons/bs";
+import { BsApp, BsDiscord, BsFillUsbMicroFill } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
 import { BsWhatsapp } from "react-icons/bs";
@@ -83,30 +83,33 @@ const Home = () => {
           <div className="button">
             <button
               type="button"
-              className="btn btn-2 hover-slide-right register-btn"
-            >
+              className="btn btn-2 hover-slide-right register-btn">
               <a href="https://hackblocks-2.devfolio.co/" target="_blank">
                 Register Now <FiArrowUpRight />
               </a>
             </button>
             <button
               type="button"
-              className="btn btn-2 hover-slide-right discord"
-            >
+              className="btn btn-2 hover-slide-right discord">
               <a href="https://discord.gg/2U2cHjS53U" target="_blank">
                 Join Here <BsDiscord />
               </a>
             </button>
-            
           </div>
+
           <div className="wt">
           <button
               type="button"
-              className="btn btn-2 hover-slide-right whatsapp"
-            >
-              
+              className="btn btn-2 hover-slide-right whatsapp">
               <a href="https://chat.whatsapp.com/IQNGOIau2ZC5G5FHC0KGTv" target="_blank">
                 Join Here <BsWhatsapp />
+              </a>
+            </button>
+            <button
+              type="button"
+              className="btn btn-2 hover-slide-right Submission">
+              <a href="https://forms.gle/28QMTJA33D34yiGV6" target="_blank">
+              Abstract Submit 
               </a>
             </button>
             </div>

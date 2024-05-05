@@ -18,7 +18,7 @@ const Timeline = () => {
               procedure are open till May 8th. There will be 
               a link to the form on the Devfolio and Whatsapp group.
               </p>
-              {/* <a href="#">Read More &gt;</a> */}
+              <a href="https://forms.gle/28QMTJA33D34yiGV6" target="_blank">Submission &gt;</a>
               <span className="Schedule_date">8 May 2024</span>
               <span className="circle"></span>
             </li>

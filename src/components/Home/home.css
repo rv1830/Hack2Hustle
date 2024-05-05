@@ -320,6 +320,25 @@ h3 {
 .whatsapp:hover > a {
   color: #14ad2b;
 }
+.Submission {
+  width: auto;
+  display: flex;
+  margin-left: 20px;
+  background-color: #ffc400 !important;
+}
+.Submission a {
+  color: #000;
+  text-decoration: none;
+}
+
+.Submission:hover {
+  border: 2px solid #ffc400 !important;
+  background-color: transparent !important;
+}
+
+.Submission:hover > a {
+  color: #ffc400;
+}
 
 @keyframes fadeIn {
   0% {
