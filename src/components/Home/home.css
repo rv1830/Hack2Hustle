@@ -365,7 +365,7 @@ h3 {
 /* Screen size up to 480px */
 @media (max-width: 480px) {
   .home-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.63)),
+    background: linear-gradient(rgba(0, 0, 0, 0.724), rgba(0, 0, 0, 0.678)),
     url("https://global.discourse-cdn.com/brave/original/3X/0/5/05ab24246ec26614fa27106953bbf7fcaa83ebae.gif") center no-repeat;
     overflow: hidden;
     padding-top: 40%;
