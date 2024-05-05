@@ -449,6 +449,12 @@ h3 {
   .logo img {
     width: 180px;
   }
+  .Submission {
+    margin-left: 2px;
+  }
+  .whatsapp{
+    margin-left: 20px;
+  }
 }
 
 /* Screen size between 481px and 767px */
