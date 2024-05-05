@@ -300,7 +300,7 @@ h3 {
 .whatsapp {
   width: auto;
   display: flex;
-  
+  margin-left: 25px;
   background-color: #14ad2b !important;
 }
 .whatsapp div{
