@@ -1,4 +1,4 @@
-import { sp1, sp2, sp3, sp4, sp5, sp6 } from "../assets";
+import { sp1, sp2, sp3, sp4, sp5, sp6, sp7, sp8, sp9 } from "../assets";
 
 const sponserData = [
   {
@@ -34,33 +34,33 @@ const sponserData = [
   {
     id: "sp7",
     sponserWebsite: "#",
-    sponserImage: sp1,
+    sponserImage: sp7,
   },
   {
     id: "sp8",
     sponserWebsite: "#",
-    sponserImage: sp2,
+    sponserImage: sp8,
   },
   {
     id: "sp9",
     sponserWebsite: "#",
-    sponserImage: sp3,
+    sponserImage: sp9,
   },
-  {
-    id: "sp10",
-    sponserWebsite: "#",
-    sponserImage: sp4,
-  },
-  {
-    id: "sp11",
-    sponserWebsite: "#",
-    sponserImage: sp5,
-  },
-  {
-    id: "sp12",
-    sponserWebsite: "#",
-    sponserImage: sp6,
-  },
+  // {
+  //   id: "sp10",
+  //   sponserWebsite: "#",
+  //   sponserImage: sp4,
+  // },
+  // {
+  //   id: "sp11",
+  //   sponserWebsite: "#",
+  //   sponserImage: sp5,
+  // },
+  // {
+  //   id: "sp12",
+  //   sponserWebsite: "#",
+  //   sponserImage: sp6,
+  // },
 ];
 
 export default sponserData;

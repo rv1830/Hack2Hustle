@@ -26,9 +26,9 @@ const App = () => {
       <Theme />
       <Venue />
       <Scheduled />
+      <Sponser />
       <Prize />
       {/* <Judges/>*/} 
-      {/* <Sponser /> */}
       <Gallery />
       <Faq />
       <Footer />
