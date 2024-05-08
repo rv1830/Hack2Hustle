@@ -5,7 +5,7 @@ import "./sponsored.css";
 
 const Sponser = () => {
   return (
-    <div className="slider">
+    <div className="slider" id="Sponser">
       <div className="about-head-section">
         <h1 className="heading-tag-line">Community Partners</h1>
         <hr className="heading-underline" />

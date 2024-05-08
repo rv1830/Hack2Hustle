@@ -48,6 +48,9 @@ const Navbar = () => {
             <a href="#Schedule">Schedule</a>
           </li>
           <li className="borderXwidth">
+            <a href="#Sponser">Partners</a>
+          </li>
+          <li className="borderXwidth">
             <a href="#Prize">Prizes</a>
           </li>
           {/* <li className="borderXwidth">

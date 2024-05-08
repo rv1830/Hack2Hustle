@@ -11,4 +11,4 @@ import sp10 from "./logo.jpg"
 import sp11 from "./Dark Background w. Text.png"
 
 
-export { sp1, sp2, sp3, sp4, sp5, sp6, sp7, sp8, sp9, sp10,sp11 };
+export { sp1, sp2, sp3, sp4, sp5, sp6, sp7, sp8, sp9, sp10, sp11 };
