@@ -1,5 +1,5 @@
 .slide-image {
-  width: 250px;
+  width: 200px;
   height: 300px;
   animation: scroll 20s alternate-reverse infinite;
 }
@@ -21,6 +21,6 @@
     transform: translateX(0);
   }
   100% {
-    transform: translatex(-1200%);
+    transform: translatex(-1000%);
   }
 }
