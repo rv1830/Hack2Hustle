@@ -57,7 +57,7 @@ const Navbar = () => {
             <a href="#Judges">Judges</a>
           </li> */}
           <li className="borderXwidth">
-            <a href="#Sponsor">Sponsor</a>
+            <a href="#Sponsor">Sponsors</a>
           </li>
           <li className="borderXwidth">
             <a href="#Gallery">Gallery</a>
