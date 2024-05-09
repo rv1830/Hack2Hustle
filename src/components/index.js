@@ -9,8 +9,8 @@ import Scheduled from "./Schedule/Schedule";
 import Faq from "./Faq/Faq";
 import Venue from "./Venue/Venue";
 import Gallery from "./Gallery/Gallery";
-import Sponser from "./sponsored/sponsored";
-
+import Partners from "./Partners/sponsored";
+import Sponsor from "./sponsored/sponsored"
 export {
   About,
   Footer,
@@ -23,5 +23,6 @@ export {
   Faq,
   Venue,
   Gallery,
-  Sponser,
+  Partners,
+  Sponsor,
 };

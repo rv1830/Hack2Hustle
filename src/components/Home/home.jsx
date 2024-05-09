@@ -105,13 +105,13 @@ const Home = () => {
                 Join Here <BsWhatsapp />
               </a>
             </button>
-            <button
+            {/* <button
               type="button"
               className="btn btn-2 hover-slide-right Submission">
               <a href="https://forms.gle/28QMTJA33D34yiGV6" target="_blank">
               Abstract Submit 
               </a>
-            </button>
+            </button> */}
             </div>
         </div>
         <div className="right-section">

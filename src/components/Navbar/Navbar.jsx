@@ -48,7 +48,7 @@ const Navbar = () => {
             <a href="#Schedule">Schedule</a>
           </li>
           <li className="borderXwidth">
-            <a href="#Sponser">Partners</a>
+            <a href="#Partners">Partners</a>
           </li>
           <li className="borderXwidth">
             <a href="#Prize">Prizes</a>
@@ -56,6 +56,9 @@ const Navbar = () => {
           {/* <li className="borderXwidth">
             <a href="#Judges">Judges</a>
           </li> */}
+          <li className="borderXwidth">
+            <a href="#Sponsor">Sponsor</a>
+          </li>
           <li className="borderXwidth">
             <a href="#Gallery">Gallery</a>
           </li>

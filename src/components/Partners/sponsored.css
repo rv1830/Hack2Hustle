@@ -1,7 +1,7 @@
 .slide-image {
-  width: 320px;
-  height: 200px;
-  animation: scroll 15s alternate-reverse infinite;
+  width: 250px;
+  height: 300px;
+  animation: scroll 20s alternate-reverse infinite;
 }
 
 .slide-track {
@@ -21,6 +21,6 @@
     transform: translateX(0);
   }
   100% {
-    transform: translatex(-1300%);
+    transform: translatex(-1200%);
   }
 }

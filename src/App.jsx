@@ -12,10 +12,12 @@ import {
   Faq,
   Venue,
   Gallery,
-  Sponser
+  Partners,
+  Sponsor
 } from "./components";
 
 import { TopButton } from "./components/TopButton";
+//import Partners from "./components/Partners/sponsored";
 
 const App = () => {
   return (
@@ -26,9 +28,10 @@ const App = () => {
       <Theme />
       <Venue />
       <Scheduled />
-      <Sponser />
+      <Partners />
       <Prize />
       {/* <Judges/>*/} 
+      <Sponsor/>
       <Gallery />
       <Faq />
       <Footer />

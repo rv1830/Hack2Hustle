@@ -1,4 +1,4 @@
-import { sp1, sp2, sp3, sp4, sp5, sp6, sp7, sp8, sp9, sp10, sp11, sp12 } from "../assets";
+import { sp1, sp2, sp3, sp4, sp5, sp6, sp7, sp8, sp9, sp10, sp11 } from "../assets";
 
 const sponserData = [
   {
@@ -56,11 +56,11 @@ const sponserData = [
     sponserWebsite: "#",
     sponserImage: sp11,
   },
-  {
-    id: "sp12",
-    sponserWebsite: "#",
-    sponserImage: sp12,
-  },
+  // {
+  //   id: "sp12",
+  //   sponserWebsite: "#",
+  //   sponserImage: sp6,
+  // },
 ];
 
 export default sponserData;
