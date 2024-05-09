@@ -3,7 +3,7 @@ import sp2 from "./AppWars1.png";
 import sp3 from "./DARRZEE.png";
 import sp4 from "./KenneSaw-removebg-preview.png";
 import sp5 from "./gate_sticker_siec_page-0001-removebg-preview.png";
-import sp6 from "./Kwikpic.jpg";
+import sp6 from "./kwikpic.jpg";
 import sp7 from "./Polygon_logo_resized.jpeg.webp";
 import sp8 from "./wolfram.webp";
 import sp9 from "./VisionIAS.png";
