@@ -1,6 +1,6 @@
 .slide-image {
   width: 200px;
-  height: 300px;
+  height: 200px;
   animation: scroll 20s alternate-reverse infinite;
 }
 

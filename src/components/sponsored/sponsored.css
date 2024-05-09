@@ -21,6 +21,6 @@
     transform: translateX(0);
   }
   100% {
-    transform: translatex(-1300%);
+    transform: translatex(-1200%);
   }
 }
