@@ -1,7 +1,8 @@
 import React from "react";
 import hackathonLogo from "/images/Hackblocks_Logo-removebg-preview.png";
-import { FaLinkedinIn } from "react-icons/fa6";
-import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+
+import { BsEnvelope, BsInstagram, BsTwitter } from "react-icons/bs"; 
+
 
 const footer = () => {
   const currentYear = new Date().getFullYear();
@@ -127,24 +128,7 @@ const footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/hack-blocks-659215301/"
-                  target="_blank"
-                  style={styles.iconLink}
-                  onMouseOver={(e) => {
-                    e.target.style.color = "#ff0033";
-                    e.target.style.transform = "scale(1.2)";
-                  }}
-                  onMouseOut={(e) => {
-                    e.target.style.color = "#ffffff";
-                    e.target.style.transform = "scale(1)";
-                  }}
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/hackblocks/"
+                  href="https://www.instagram.com/hack2hustle?igsh=MXM1c3Z3ajV5YzdrdA=="
                   target="_blank"
                   style={styles.iconLink}
                   onMouseOver={(e) => {
@@ -157,6 +141,21 @@ const footer = () => {
                   }}
                 >
                   <BsInstagram />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="Hack2Hustle2025@gmail.com"
+                  style={styles.iconLink}
+                  onMouseOver={(e) => {
+                    e.target.style.color = "#ff0033";
+                    e.target.style.transform = "scale(1.2)";
+                  }}
+                  onMouseOut={(e) => {
+                    e.target.style.color = "#ffffff";
+                    e.target.style.transform = "scale(1)";
+                  }}
+                ><BsEnvelope/>
                 </a>
               </li>
             </ul>

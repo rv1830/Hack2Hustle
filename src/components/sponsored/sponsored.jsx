@@ -5,7 +5,7 @@ import SponserList from "./SponserList";
 const Sponser = () => {  
   const styles = {     
     slider: {       
-      padding: "4rem 2rem",       
+      padding: "2rem 2rem",       
       backgroundColor: "#000000",       
       color: "#ffffff",       
       fontFamily: "'Poppins', sans-serif",       
@@ -117,27 +117,6 @@ const Sponser = () => {
       </div>         
              
       </div>        
-
-      {/* Become a Sponsor Section */}       
-      <div style={{ textAlign: "center", marginTop: "4rem" }}>         
-        <h3 style={{ fontSize: "2rem", fontWeight: "bold", marginBottom: "1rem", color: "#ffffff" }}>           
-          Become a Sponsor         
-        </h3>         
-        <p style={{ color: "#bbbbbb", maxWidth: "600px", margin: "0 auto", marginBottom: "2rem" }}>           
-          Interested in sponsoring Hack2Hustle? Reach out to our team to learn about sponsorship opportunities and benefits.         
-        </p>         
-        <a           
-          href="https://forms.gle/YourGoogleFormLinkHere"            
-          target="_blank"            
-          rel="noopener noreferrer"           
-          style={styles.contactButton}         
-        >           
-          Contact for Sponsorship         
-        </a>       
-      </div>        
-
-      
-
       {/* Red circuit pattern background */}       
       <div style={styles.backgroundImage}></div>     
     </div>   

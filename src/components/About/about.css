@@ -1,134 +1,67 @@
 .about-section {
-  position: relative;
-  top: -50px;
-  padding-top: 0.2rem;
+
+  padding: 2rem;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-head-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heading-tag-line {
+  font-size: 2.5rem; /* Adjust font size here */
+  font-weight: 700;
+  color: #333;
+}
+
+.heading-underline {
+  width: 80px;
+  height: 3px;
+  background-color: #ff0033;
+  border: none;
+  margin: 0.5rem auto;
 }
 
 .about-subsection {
-  position: relative;
   display: flex;
-  align-items: center;
-  height: 100%;
-  padding-left: 9rem;
-  padding-right: 2rem;
-  padding-bottom: 4rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
 .about-left-section {
   flex: 1;
-  color: #dddbdb;
-}
-
-.about-right-section {
-  flex: 0.5;
-  padding-left: 20px;
+  max-width: 600px;
 }
 
 .about-heading {
-  color: #FF3131;
-  font-size: 45px; /* Medium-sized font */
-  margin-bottom: 10px;
-  font-weight: 500;
+  font-size: 1.75rem; /* Adjusted font size for the heading */
+  font-weight: 600;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+  margin-left: 30px;
 }
 
 .about-left-section p {
-  font-size: 18px; /* Medium-sized font for paragraphs */
+  font-size: 1rem; /* Adjusted font size for paragraphs */
   line-height: 1.6;
-  margin-bottom: 15px;
-  color: #dddbdb;
+  color: #c3bdbd;
+  margin-left: 30px;
+}
+
+.about-right-section {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hackathon-image {
-  width: 500px;
+  width: 100%;
   height: auto;
-  animation: imageAnimation 1s infinite alternate;
-}
-
-@media screen and (max-width: 480px) {
-  .about-subsection {
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 2rem;
-    text-align: center;
-    width: 100%;
-  }
-}
-
-@keyframes imageAnimation {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(-15px);
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .about-subsection {
-    padding-right: 8rem;
-    flex-direction: column;
-  }
-
-  .hackathon-image {
-    width: 439px;
-    height: 100%;
-  }
-
-  .about-left-section {
-    width: 100vw;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .about-right-section {
-    padding: 0;
-  }
-
-  .about-left-section p {
-    font-size: 18px; /* Medium font size for mobile screens */
-    display: flex;
-    text-align: center;
-  }
-
-  .about-heading {
-    text-align: center;
-    color: #FF3131;
-    font-size: 45px; /* Adjusted for medium screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .about-subsection {
-    padding-right: 8rem;
-    flex-direction: column;
-  }
-
-  .hackathon-image {
-    max-width: 353px;
-    height: 361px;
-  }
-
-  .about-left-section {
-    width: 100vw;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .about-right-section {
-    padding: 0;
-  }
-
-  .about-left-section p {
-    font-size: 16px; /* Smaller text for small screens */
-    display: flex;
-    text-align: center;
-  }
-
-  .about-heading {
-    text-align: center;
-    color: #FF3131;
-    font-size: 40px; /* Adjusted for small screens */
-  }
+  max-width: 450px; /* Adjust image width */
+  border-radius: 8px;
 }
