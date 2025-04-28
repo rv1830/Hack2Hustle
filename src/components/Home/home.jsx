@@ -23,12 +23,10 @@ const Home = () => {
 
   function calculateTimeLeft() {
     const currentTime = new Date();
-    const targetDate = new Date();//2024-05-10
-    targetDate.setDate(targetDate.getDate());
-    targetDate.setHours(0,0,0,0); // Set the target time to 11:59 pm 23,59,59
-
+    const targetDate = new Date("2025-05-10T10:00:00"); // 10 May 2025, 10:00 AM
+  
     const timeDiff = targetDate.getTime() - currentTime.getTime();
-
+  
     if (timeDiff <= 0) {
       return {
         days: 0,
@@ -37,12 +35,12 @@ const Home = () => {
         seconds: 0,
       };
     }
-
+  
     const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
     const hours = Math.floor((timeDiff / (1000 * 60 * 60)) % 24);
     const minutes = Math.floor((timeDiff / 1000 / 60) % 60);
     const seconds = Math.floor((timeDiff / 1000) % 60);
-
+  
     return {
       days,
       hours,
@@ -50,7 +48,7 @@ const Home = () => {
       seconds,
     };
   }
-
+  
   return (
     <div className="home-container" id="Home">
       {/* <div className="title-container">
@@ -85,27 +83,27 @@ const Home = () => {
             <button
               type="button"
               className="btn btn-2 hover-slide-right register-btn">
-              <a href="https://hackblocks-2.devfolio.co/" target="_blank">
+              <a href="https://vision.hack2skill.com/event/hackblocks2025" target="_blank">
                 Register Now <FiArrowUpRight />
               </a>
             </button>
             <button
               type="button"
-              className="btn btn-2 hover-slide-right discord">
-              <a href="https://discord.gg/5fvJgch4" target="_blank">
-                Join Here <BsDiscord />
+              className="btn btn-2 hover-slide-right whatsapp">
+              <a href="https://chat.whatsapp.com/HfGYsplUo0GJaArCHKyQlI" target="_blank">
+                Join Here <BsWhatsapp />
               </a>
             </button>
           </div>
 
           <div className="wt">
-          <button
+          {/* <button
               type="button"
-              className="btn btn-2 hover-slide-right whatsapp">
-              <a href="https://chat.whatsapp.com/IQNGOIau2ZC5G5FHC0KGTv" target="_blank">
-                Join Here <BsWhatsapp />
+              className="btn btn-2 hover-slide-right discord">
+              <a href="" target="_blank">
+                Join Here <BsDiscord />
               </a>
-            </button>
+            </button> */}
             {/* <button
               type="button"
               className="btn btn-2 hover-slide-right Submission">
@@ -118,7 +116,7 @@ const Home = () => {
         <div className="right-section">
           {/* <h1 className="hackerspace">&#x23;HackerSpace</h1> */}
           <h1 className="hackathon-title">
-            Hack<span1>Blocks</span1>&nbsp;
+            Hack<span1>2</span1>Hustle&nbsp;
             {/* <span className="year">
               <span className="span1">2</span>
               <span className="span2">0</span>
@@ -127,14 +125,14 @@ const Home = () => {
             </span> */}
           </h1>
           <p className="home-text">
-            "HUSTLE. BUILD. HACK"
+            "Build. Innovate. Collaborate"
           </p>
           <h3 className="college-name">
             <a href="https://www.google.com/maps/place/Microsoft/@28.4915743,77.0885427,15z/data=!3m1!5s0x390d18df3f558f7d:0xa20f1b5aa02df24d!4m10!1m2!2m1!1smicrosoft+corporation+india+pvt.+ltd.+dlf+downtown,+level+8,+block+2+dlf+phase+-+3,+sector+-+25a+gurugram+122002+kocation!3m6!1s0x390d1937a3b855cb:0x4b8c750d9d64fe72!8m2!3d28.4890758!4d77.0917585!15sCnltaWNyb3NvZnQgY29ycG9yYXRpb24gaW5kaWEgcHZ0LiBsdGQuIGRsZiBkb3dudG93biwgbGV2ZWwgOCwgYmxvY2sgMiBkbGYgcGhhc2UgLSAzLCBzZWN0b3IgLSAyNWEgZ3VydWdyYW0gMTIyMDAyIGtvY2F0aW9uIgOIAQGSARBzb2Z0d2FyZV9jb21wYW554AEA!16s%2Fg%2F1tdxtdj3?entry=ttu" target="_blank">
               <span>
                 <IoLocationSharp />
               </span>
-              Microsoft,Gurugram
+              Masters Union , Gurugram
             </a>
           </h3>
         </div>

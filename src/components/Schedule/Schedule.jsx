@@ -8,6 +8,13 @@ const Timeline = () => {
         <h1 className="heading-tag-line">Schedule</h1>
         <hr className="heading-underline" />
       </div>
+
+      {/* Coming Soon Frame */}
+      <div className="coming-soon-frame">
+        <h2 className="coming-soon-text">Coming Soon...</h2>
+      </div>
+
+      {/* 
       <div className="Schedule_main" id="Schedule">
         <div className="Schedule_container">
           <ul>
@@ -18,7 +25,6 @@ const Timeline = () => {
               procedure are open till May 8th. There will be 
               a link to the form on the Devfolio and Whatsapp group.
               </p>
-              {/* <a href="https://forms.gle/28QMTJA33D34yiGV6" target="_blank">Submission &gt;</a> */}
               <span className="Schedule_date">8 May 2024</span>
               <span className="circle"></span>
             </li>
@@ -30,24 +36,23 @@ const Timeline = () => {
               will be given. Teams will pitch their ideas and participants' 
               progress will be evaluated. Meal breaks in between would be given.
               </p>
-              {/* <a href="#">Read More &gt;</a> */}
               <span className="Schedule_date">10 May 2024</span>
               <span className="circle"></span>
             </li>
             <li>
               <h3 className="Schedule_heading">Day 2</h3>
               <p>
-              Day 2 will be conducted in MICROSOFT OFFICE ,GURGAON. Top 20-25 shortlisted
-              teams will compete against each other in the final round of  hackathon where 
+              Day 2 will be conducted in MICROSOFT OFFICE, GURGAON. Top 20-25 shortlisted
+              teams will compete against each other in the final round of hackathon where 
               teams will prepare their prototypes. Day 2 will end with the closing ceremony.
               </p>
-               {/* <a href="#">Read More &gt;</a>  */}
               <span className="Schedule_date">11 May 2024</span>
               <span className="circle"></span>
             </li>
           </ul>
         </div>
       </div>
+      */}
     </div>
   );
 };

@@ -3,12 +3,12 @@
   top: -50px;
   padding-top: 0.2rem;
 }
+
 .about-subsection {
   position: relative;
   display: flex;
   align-items: center;
   height: 100%;
-  /* margin-left: 1rem; */
   padding-left: 9rem;
   padding-right: 2rem;
   padding-bottom: 4rem;
@@ -26,14 +26,14 @@
 
 .about-heading {
   color: #FF3131;
-  font-size: 50px;
+  font-size: 45px; /* Medium-sized font */
   margin-bottom: 10px;
   font-weight: 500;
 }
 
 .about-left-section p {
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 18px; /* Medium-sized font for paragraphs */
+  line-height: 1.6;
   margin-bottom: 15px;
   color: #dddbdb;
 }
@@ -45,7 +45,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .about-sub-section {
+  .about-subsection {
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -87,7 +87,7 @@
   }
 
   .about-left-section p {
-    font-size: 20px;
+    font-size: 18px; /* Medium font size for mobile screens */
     display: flex;
     text-align: center;
   }
@@ -95,7 +95,7 @@
   .about-heading {
     text-align: center;
     color: #FF3131;
-    font-size: 50px;
+    font-size: 45px; /* Adjusted for medium screens */
   }
 }
 
@@ -121,7 +121,7 @@
   }
 
   .about-left-section p {
-    font-size: 15px;
+    font-size: 16px; /* Smaller text for small screens */
     display: flex;
     text-align: center;
   }
@@ -129,69 +129,6 @@
   .about-heading {
     text-align: center;
     color: #FF3131;
-    font-size: 40px;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .about-subsection {
-    padding-right: 8rem;
-    flex-direction: column;
-  }
-
-  .hackathon-image {
-    max-width: 353px;
-    height: 361px;
-  }
-
-  .about-left-section {
-    width: 100vw;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .about-right-section {
-    padding: 0;
-  }
-
-  .about-left-section p {
-    font-size: 17px;
-    display: flex;
-    text-align: center;
-  }
-
-  .about-heading {
-    text-align: center;
-    color: #FF3131;
-    font-size: 44px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .hackathon-image {
-    width: 439px;
-    height: 100%;
-  }
-
-  .about-left-section {
-    width: 100vw;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .about-right-section {
-    padding: 0;
-  }
-
-  .about-left-section p {
-    font-size: 20px;
-    display: flex;
-    /* text-align: center; */
-  }
-
-  .about-heading {
-    /* text-align: center; */
-    color: #FF3131;
-    font-size: 50px;
+    font-size: 40px; /* Adjusted for small screens */
   }
 }

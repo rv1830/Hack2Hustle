@@ -1,73 +1,173 @@
 import React from "react";
-import "./footer.css";
 import hackathonLogo from "/images/Hackblocks_Logo-removebg-preview.png";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
-import { IoLocationSharp } from "react-icons/io5";
 
 const footer = () => {
-  // get the current year dynamically
   const currentYear = new Date().getFullYear();
+
+  const styles = {
+    mainContainer: {
+      backgroundColor: "#000000",
+      color: "#ffffff",
+      padding: "4rem 2rem 2rem 2rem",
+      fontFamily: "'Poppins', sans-serif",
+    },
+    contentContainer: {
+      display: "flex",
+      flexWrap: "wrap",
+      justifyContent: "space-between",
+      gap: "3rem",
+      maxWidth: "1200px",
+      margin: "0 auto",
+    },
+    logoContent: {
+      flex: "1",
+    },
+    logoImg: {
+      width: "180px",
+      height: "auto",
+      transition: "transform 0.3s ease",
+    },
+    venueContent: {
+      flex: "1",
+    },
+    date: {
+      color: "#ff0033",
+      fontWeight: "bold",
+      fontSize: "1rem",
+      marginBottom: "0.5rem",
+    },
+    footerTitle: {
+      color: "#ffffff",
+      fontSize: "1.5rem",
+      fontWeight: "600",
+      marginBottom: "0.8rem",
+    },
+    address: {
+      fontSize: "0.95rem",
+      lineHeight: "1.6",
+      color: "#bbbbbb",
+    },
+    socialContent: {
+      flex: "1",
+    },
+    contentText: {
+      textAlign: "left",
+    },
+    socialLogo: {
+      display: "flex",
+      gap: "1.5rem",
+      marginTop: "1rem",
+      listStyle: "none",
+      padding: "0",
+    },
+    iconLink: {
+      fontSize: "1.8rem",
+      color: "#ffffff",
+      transition: "color 0.3s ease, transform 0.3s ease",
+    },
+    copyContainer: {
+      marginTop: "3rem",
+      textAlign: "center",
+      fontSize: "0.9rem",
+      paddingTop: "1.5rem",
+      borderTop: "1px solid #222",
+      color: "#666666",
+    },
+    spanRed: {
+      color: "#ff0033",
+      fontWeight: "bold",
+    },
+  };
+
   return (
-    <footer className="mainContainer" id="Footer">
-      <div className="contentContainer">
-        <div className="logoContent">
+    <footer style={styles.mainContainer} id="Footer">
+      <div style={styles.contentContainer}>
+        <div style={styles.logoContent}>
           <a href="/">
-            <img src={hackathonLogo} alt="HackerSpace" />
+            <img
+              src={hackathonLogo}
+              alt="HackerSpace"
+              style={styles.logoImg}
+              onMouseOver={(e) => (e.target.style.transform = "scale(1.05)")}
+              onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
+            />
           </a>
         </div>
-        <div className="venueContent">
-          <h4 className="date-1">10-11 May, 2024</h4>
-          <h3 className="footerTitle">Venue Location </h3>
-          <address className="address">
-          Microsoft Corporation India Pvt. Ltd.
-          DLF Downtown, Level 8, Block 2 DLF Phase - 3, Sector - 25A,Gurugram 122002
-          
-          
+
+        <div style={styles.venueContent}>
+          <h4 style={styles.date}>10-11 May, 2025</h4>
+          <h3 style={styles.footerTitle}>Venue Location</h3>
+          <address style={styles.address}>
+            Masters Union, Phase II, Udyog Vihar, Sector 20, Near Moulsari Avenue Metro Station, DLF Cyber Park Gurugram, Haryana, 122022
           </address>
-          {/* <div className="location">
-            <a
-              href="https://maps.app.goo.gl/jEcqN55yhkt1bJRU6"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <IoLocationSharp />
-              <h4>View Map Location</h4>
-            </a>
-          </div> */}
         </div>
-        <div className="socialContent">
-          <div className="contentText">
-            <h3 className="footerTitle">Social Connection</h3>
-            <ul className="socialLogo">
-              <li className="twitterlogo">
-                <a href="https://twitter.com/HackBlocks" target="_blank">
+
+        <div style={styles.socialContent}>
+          <div style={styles.contentText}>
+            <h3 style={styles.footerTitle}>Social Connection</h3>
+            <ul style={styles.socialLogo}>
+              <li>
+                <a
+                  href="https://twitter.com/HackBlocks"
+                  target="_blank"
+                  style={styles.iconLink}
+                  onMouseOver={(e) => {
+                    e.target.style.color = "#ff0033";
+                    e.target.style.transform = "scale(1.2)";
+                  }}
+                  onMouseOut={(e) => {
+                    e.target.style.color = "#ffffff";
+                    e.target.style.transform = "scale(1)";
+                  }}
+                >
                   <BsTwitter />
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/hack-blocks-659215301/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/hack-blocks-659215301/"
+                  target="_blank"
+                  style={styles.iconLink}
+                  onMouseOver={(e) => {
+                    e.target.style.color = "#ff0033";
+                    e.target.style.transform = "scale(1.2)";
+                  }}
+                  onMouseOut={(e) => {
+                    e.target.style.color = "#ffffff";
+                    e.target.style.transform = "scale(1)";
+                  }}
+                >
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="instalogo">
-                <a href="https://www.instagram.com/hackblocks/" target="_blank">
+              <li>
+                <a
+                  href="https://www.instagram.com/hackblocks/"
+                  target="_blank"
+                  style={styles.iconLink}
+                  onMouseOver={(e) => {
+                    e.target.style.color = "#ff0033";
+                    e.target.style.transform = "scale(1.2)";
+                  }}
+                  onMouseOut={(e) => {
+                    e.target.style.color = "#ffffff";
+                    e.target.style.transform = "scale(1)";
+                  }}
+                >
                   <BsInstagram />
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        {/*<div className="mapContent">*/}
-        {/*    <iframe title="address"*/}
-        {/*        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.8324128287754!2d88.41251337500026!3d22.510470079535967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0273f14bca0c15%3A0xbd1ef59baa5eafd0!2sMeghnad%20Saha%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1687704258834!5m2!1sen!2sin"*/}
-        {/*        allowFullScreen="" loading="lazy"*/}
-        {/*        referrerPolicy="no-referrer-when-downgrade"></iframe>*/}
-        {/*</div>*/}
       </div>
-      <div className="copyContainer">
+
+      <div style={styles.copyContainer}>
         <p>
-          <span>©</span> {currentYear} | Developer <span>Team HackBlocks</span>
+          <span style={styles.spanRed}>©</span> 2025 | Developer{" "}
+          <span style={styles.spanRed}>Team Hack2Hustle</span>
         </p>
       </div>
     </footer>

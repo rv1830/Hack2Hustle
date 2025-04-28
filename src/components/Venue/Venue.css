@@ -1,15 +1,108 @@
+/* Venue Section */
 .venue-section {
-  /* margin: 10px; */
-  /* padding: 3rem; */
-  padding-bottom: 4rem;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+.venue-head-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.heading-tag-line {
+  font-size: 36px;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.heading-underline {
+  width: 80px;
+  border: 2px solid red;
+  margin: 10px auto;
 }
 
+/* Venue Container */
+.venue-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Subheading Section for Venue */
+.venue-subheading-right {
+  flex: 5rem;
+}
+.venue-subheading-left {
+  flex: 1;
+  padding-left: 20px;
+}
+
+/* Embedded Google Map styling */
+.venue-subheading-right iframe {
+  border: 2px solid red;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+}
+
+/* Venue Date and Address */
+.venue-date {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  position: relative;
+  top: -10px; /* Moves the date a bit higher */
+}
+.venue-address {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
+  word-wrap: break-word;
+}
+
+/* Make the address two lines */
+.venue-address::after {
+  content: "";
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Venue Location */
+.venue-location {
+  margin-top: 20px;
+  text-align: center;
+}
+.venue-location a {
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.venue-location a:hover {
+  color: white;
+}
+.venue-location h4 {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.venue-location svg {
+  font-size: 24px;
+  color: red;
+}
+
+.venue-section {
+  padding-bottom: 4rem;
+}
 .venue-container {
   display: flex;
   align-items: center;
   padding: 1rem;
 }
-
 .venue-subsection {
   position: relative;
   display: flex;
@@ -20,14 +113,12 @@
   padding-right: 2rem;
   font-size: 2rem;
 }
-
 .venue-subheading-left {
   width: 100%;
   color: #fff;
   padding-top: 2rem;
   text-align: center;
 }
-
 .venue-location a {
   display: flex;
   align-items: center;
@@ -36,24 +127,19 @@
   gap: 10px;
   font-family: Poppins;
   color: #fff;
-  /* gap: 10px; */
 }
-
 .venue-location > a > h4 {
   margin: 0;
 }
-
 .venue-subheading-right {
   width: 100%;
 }
-
 .venue-subheading-right iframe {
   width: 100%;
   height: 350px;
   border: 0;
   border-radius: 10px;
 }
-
 .venue-location {
   display: flex;
   justify-content: center;
@@ -84,8 +170,35 @@
     font-size: 2rem;
   }
 }
+
 @media (min-width: 481px) and (max-width: 767px) {
   .venue-subsection {
     flex-direction: column;
+  }
+}
+
+/* For 780px and above */
+@media (min-width: 780px) and (max-width: 1199px) {
+  .venue-subheading-right {
+    width: 50%;
+  }
+  .venue-subheading-left {
+    width: 50%;
+  }
+  .venue-container {
+    justify-content: space-between;
+  }
+}
+
+/* For 1200px and above */
+@media (min-width: 1200px) {
+  .venue-subheading-right {
+    width: 50%;
+  }
+  .venue-subheading-left {
+    width: 50%;
+  }
+  .venue-container {
+    justify-content: space-between;
   }
 }
