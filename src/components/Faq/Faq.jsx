@@ -25,10 +25,12 @@ function Accordion() {
       marginBottom: "3rem",
     },
     headingTagLine: {
-      fontSize: "2rem",
-      fontWeight: "700",
       marginBottom: "0.5rem",
       letterSpacing: "2px",
+      fontSize: "36px",             // Corrected 'fontsize' to 'fontSize'
+      color: "red",
+      textTransform: "uppercase",   // Corrected 'texttransform' to 'textTransform'
+      fontWeight: "bold"
     },
     headingUnderline: {
       width: "80px",
