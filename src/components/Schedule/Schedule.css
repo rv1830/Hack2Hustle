@@ -110,12 +110,11 @@ body {
   content: " ";
   position: absolute;
   width: 2px;
-  height: 65%;
+  height: 100%;
   left: 50%;
   top: 0;
   transform: translateX(-50%);
   background-image: linear-gradient(to bottom, #FF3131, #FF5757);
-  animation: moveline 6s linear forwards;
 }
 
 @keyframes moveline {
@@ -277,4 +276,69 @@ ul li a {
   .Schedule_container ul li .circle {
     left: -10px;
   }
+}
+/* Hover Effects & Enhancements */
+.Schedule_container ul li {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Schedule_container ul li:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(255, 49, 49, 0.3);
+}
+
+/* Date hover glow */
+ul li .Schedule_date {
+  transition: all 0.3s ease;
+}
+
+ul li:hover .Schedule_date {
+  box-shadow: 0 0 10px rgba(255, 49, 49, 0.6);
+  transform: scale(1.05);
+}
+
+/* Circle glow on hover */
+ul li .circle {
+  transition: all 0.3s ease;
+}
+
+ul li:hover .circle {
+  box-shadow: 0 0 8px rgba(255, 87, 87, 0.8);
+}
+
+/* Optional: Slight glow around each li on hover */
+.Schedule_container ul li:hover {
+  border: 1px solid rgba(255, 87, 87, 0.5);
+}
+
+
+/* Wider Date Box */
+.Schedule_date {
+  padding: 8px 16px;
+  width: auto;
+  min-width: 180px;
+  text-align: center;
+  font-weight: 500;
+  background: #1e1e1e;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Wider middle line */
+.Schedule_container ul::before {
+  left: 20px;
+  width: 6px;
+  background-color: #ff3131;
+}
+
+
+.Schedule_container ul li:hover {
+  transform: scale(1.05) rotateZ(-1deg);
+  box-shadow:
+    0 0 15px rgba(255, 49, 49, 0.6),
+    0 0 30px rgba(255, 49, 49, 0.4),
+    0 0 45px rgba(255, 49, 49, 0.2);
+  border: 1px solid rgba(255, 49, 49, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border 0.3s ease;
 }

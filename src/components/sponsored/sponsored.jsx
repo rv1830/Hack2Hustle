@@ -105,22 +105,21 @@ const Sponser = () => {
       animation: "fadeInOut 3s infinite ease-in-out", // Infinite fade animation with ease-in-out
     }
   };  
-
   return (     
-    <div style={styles.slider} id="Sponsor">       
+    <div style={styles.slider} id="Sponsor">    
       <div style={styles.aboutHeadSection}>         
         <h1 style={styles.headingTagLine}>Sponsors</h1>   
         <hr style={styles.headingUnderline} />    
-         {/* Coming Soon Section with animated text */}      
-      <div style={styles.comingSoon}>       
-        <h2 style={styles.comingSoonHeading}>Sponsors Will Be Live Soon!</h2>           
-      </div>         
-             
-      </div>        
-      {/* Red circuit pattern background */}       
+      </div>  
+  
+      {/* Render the sponsor list here */}
+      <SponserList items={sponserData} />
+  
+      {/* Background pattern */}
       <div style={styles.backgroundImage}></div>     
     </div>   
-  ); 
+  );
+  
 };  
 
 export default Sponser;

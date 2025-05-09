@@ -1,13 +1,21 @@
 .slide-image {
-  width: 200px;
-  height: 200px;
-  animation: scroll 20s alternate-reverse infinite;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  background-color: transparent;
+  border: 2px solid #ff6666;
+  border-radius: 16px;
+  padding: 3px;
+  display: flex;
+  scale:0.85;
 }
+
+
 
 .slide-track {
   width: 100%;
   display: flex;
-  gap: 3em;
+  gap: 0.8rem;
   overflow: hidden;
 }
 
@@ -24,3 +32,17 @@
     transform: translatex(-1000%);
   }
 }
+
+.slider {
+  padding: 4rem 1rem;
+  overflow: hidden;
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 0.8rem;
+  overflow: hidden;
+}
+
+
